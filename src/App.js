@@ -1,10 +1,12 @@
 import RealEstate from "./components/RealEstate";
+import Pets from "./components/Pets";
 import food from "./img/food.jpeg";
 
 function App() {
   return (
     <div className="text-pink-300">
       <div>
+        <Pets />
         <nav>
           <div>
             <h1>
