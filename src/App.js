@@ -1,12 +1,15 @@
 import RealEstate from "./components/RealEstate";
 import Pets from "./components/Pets";
 import food from "./img/food.jpeg";
+import CatForm from "./components/CatForm";
+import DogForm from "./components/DogForm";
 
 function App() {
   return (
     <div className="text-pink-300">
       <div>
         <Pets />
+        <CatForm />
         <nav>
           <div>
             <h1>
@@ -32,7 +35,7 @@ function App() {
           </ul>
         </nav>
       </div>
-      <RealEstate/>
+      <RealEstate />
 
       <main>
         <div>
@@ -62,7 +65,9 @@ function App() {
         </div>
 
         <h4>Most Popular</h4>
-        <div></div>
+        <div>
+          <DogForm />
+        </div>
         <div>
           <div>Load More</div>
         </div>

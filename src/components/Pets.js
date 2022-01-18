@@ -75,8 +75,7 @@ const Pets = () => {
 
 export default Pets;
 
-{
-  /*
+/*
 
 let props={
   id: 1,
@@ -85,4 +84,3 @@ let props={
   hobby:"dfbdf"
 }
 */
-}
