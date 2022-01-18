@@ -1,3 +1,4 @@
+import RealEstate from "./components/RealEstate";
 import food from "./img/food.jpeg";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           </ul>
         </nav>
       </div>
+      <RealEstate/>
 
       <main>
         <div>
